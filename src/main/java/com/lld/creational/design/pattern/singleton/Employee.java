@@ -1,6 +1,6 @@
 package com.lld.creational.design.pattern.singleton;
 
-public class Employee {
+public class Employee implements Cloneable {
     private static Employee employee;
     private Employee(){
         //so that no any other class outside of this can create the object
@@ -19,4 +19,11 @@ public class Employee {
         return employee;
 
     }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+       // return super.clone();//it will break the functionality of singleton, to resolve it
+        return employee;
+    }
+
 }
