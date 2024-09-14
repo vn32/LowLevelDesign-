@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="Added logic for template design pattern.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationMomento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationOriginator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/Main.java" afterDir="false" />
+    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="Added logic for Momento/Snapshot design pattern.&#10;Mainly used to store the state of an object.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/creational/design/pattern/singleton/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/creational/design/pattern/singleton/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -37,14 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/LowLevelDesign/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/LowLevelDesign/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lld.Behavioral.design.pattern.template" />
@@ -84,14 +86,34 @@
       <option name="project" value="LOCAL" />
       <updated>1726302035488</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added logic for Momento/Snapshot design pattern.&#10;Mainly used to store the state of an object.">
+      <option name="closed" value="true" />
+      <created>1726305134950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726305134950</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit." />
     <MESSAGE value="Added abstract class for chain responsibility and final code." />
     <MESSAGE value="Added logic for template design pattern." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added logic for template design pattern." />
+    <MESSAGE value="Added logic for Momento/Snapshot design pattern.&#10;Mainly used to store the state of an object." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic for Momento/Snapshot design pattern.&#10;Mainly used to store the state of an object." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
