@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="first commit.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/ChainResponsibility/DebugLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/ChainResponsibility/ErrorLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/ChainResponsibility/InfoLogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/ChainResponsibility/LogProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/ChainResponsibility/Main.java" afterDir="false" />
+    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="Added abstract class for chain responsibility and final code.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PayToFriend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PayToMerchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PaymentFlow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2m1EEFaJoOQXuNT9H7Hf0y0CiGl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/LowLevelDesign/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/LowLevelDesign/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lld.Behavioral.design.pattern.ChainResponsibility" />
@@ -69,12 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726236378947</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added abstract class for chain responsibility and final code.">
+      <option name="closed" value="true" />
+      <created>1726289439097</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726289439097</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit." />
+    <MESSAGE value="Added abstract class for chain responsibility and final code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added abstract class for chain responsibility and final code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
