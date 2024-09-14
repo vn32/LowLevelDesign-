@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="Added abstract class for chain responsibility and final code.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PayToFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PayToMerchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/template/PaymentFlow.java" afterDir="false" />
+    <list default="true" id="57b44461-54bd-44f3-9caf-a9f5c0dd0210" name="Changes" comment="Added logic for template design pattern.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationCareTaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationMomento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/ConfigurationOriginator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lld/Behavioral/design/pattern/momentOrSnapshot/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lld.Behavioral.design.pattern.template" />
       <recent name="com.lld.Behavioral.design.pattern.ChainResponsibility" />
     </key>
   </component>
@@ -75,13 +76,22 @@
       <option name="project" value="LOCAL" />
       <updated>1726289439097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added logic for template design pattern.">
+      <option name="closed" value="true" />
+      <created>1726302035488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726302035488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit." />
     <MESSAGE value="Added abstract class for chain responsibility and final code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added abstract class for chain responsibility and final code." />
+    <MESSAGE value="Added logic for template design pattern." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic for template design pattern." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
