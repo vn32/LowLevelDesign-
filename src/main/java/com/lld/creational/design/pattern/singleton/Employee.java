@@ -7,9 +7,16 @@ public class Employee {
     }
     //method to get the employee object
     public static Employee getEmployee(){
-        if(employee==null){
-            employee=new Employee();
+        //making it thread safe
+        if(employee==null) {
+            synchronized (Employee.class) {
+                if (employee == null) {
+                    employee = new Employee();
+                }
+                return employee;
+            }
         }
         return employee;
+
     }
 }
